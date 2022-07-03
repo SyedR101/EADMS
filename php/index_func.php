@@ -107,7 +107,7 @@ function latestDocProg($con)
         }
     }
     elseif ($con && ($result->num_rows == 0)) {
-        echo "<span><i>no document</i></span>";
+        echo "<span class=\"center\"><i>no document</i></span>";
     }
     else {
         echo "<span><i>error</i></span>";
