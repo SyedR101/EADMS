@@ -32,7 +32,6 @@ if (isset($_POST['update_button'])) {
         $sql2 = "INSERT INTO details VALUES (NULL, '$doc_id', '$percent', '$date', '$note')";
         $result2 = $con->query($sql2);
 
-        // if the problem is can INSERT, but not UPDATE, at the same time
         $sql3 = "UPDATE document SET doc_prog_current='$percent' WHERE staff_id='$staff_id' AND doc_id='$doc_id'";
         $result3 = $con->query($sql3);
 
