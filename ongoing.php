@@ -114,7 +114,7 @@ require 'php/ongoing_func.php';  // contain functions for ongoing page
                                                    <th style="width: 30%">Document/Programme Name</th>
                                                    <th>Date Received</th>
                                                    <th>Date Accepted</th>
-                                                   <th>Project Progress</th>
+                                                   <th>Progress</th>
                                                    <th>Status</th>
                                                 </tr>
                                              </thead>

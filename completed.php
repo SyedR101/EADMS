@@ -111,7 +111,7 @@ require 'php/completed_func.php';    // contain functions for completed page
                                              <thead class="thead-dark">
                                                 <tr>
                                                    <th style="width: 2%" hidden>No</th>
-                                                   <th style="width: 30%">Project Title</th>
+                                                   <th style="width: 30%">Document/Programme Name</th>
                                                    <th>Date Received</th>
                                                    <th>Date Accepted</th>
                                                    <th>Date Completed</th>

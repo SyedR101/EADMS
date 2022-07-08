@@ -160,62 +160,6 @@ require 'php/detComp_func.php'; // contain functions for details page
             <!-- end dashboard inner -->
          </div>
       </div>
-      <!-- Update Modal -->
-      <div class="modal fade" id="updateModal">
-         <div class="modal-dialog">
-            <div class="modal-content">
-               <!-- Modal Header -->
-               <div class="modal-header">
-                  <h4 class="modal-title">Update Progress</h4>
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-               </div>
-               <!-- Modal body -->
-               <div class="modal-body">
-               <form action="details.php" method="POST">
-                  <fieldset>
-                     <div class="field form-row row mb-3">
-                        <label class="col-sm-4 col-form-label">New Percentage: </label>
-                        <input class="form-control" type="number" name="percent" placeholder="Enter New Percentage" />
-                     </div>
-                     <div class="field form-row row mb-3">
-                        <label class="col-sm-2 col-form-label">Note: </label>
-                        <input class="form-control" type="note" name="note" placeholder="Enter Note" />
-                     </div>
-                  </fieldset>
-                  <!-- Modal footer -->
-                  <div class="modal-footer">
-                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                     <button type="submit" class="btn btn-primary" name="update_button">Update</button>
-                  </div>
-               </form>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- Complete Modal -->
-      <div class="modal fade" id="completeModal">
-         <div class="modal-dialog">
-            <div class="modal-content">
-               <!-- Modal Header -->
-               <div class="modal-header">
-                  <h4 class="modal-title">Confirm Complete Progress?</h4>
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-               </div>
-               <!-- Modal body -->
-               <div class="modal-body">
-                  This action is permanent.
-               </div>
-               <!-- Modal footer -->
-               <form action="details.php" method="POST">
-                  <div class="modal-footer">
-                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                     <button type="submit" class="btn btn-primary" name="complete_button">Confirm</button>
-                  </div>
-               </form>
-            </div>
-         </div>
-      </div>
-      <!-- end update model popup -->
    </div>
    <!-- jQuery -->
    <script src="js/jquery.min.js"></script>
